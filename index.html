@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Xaliimo Calooloy Frontend</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="app-shell">
+      <aside class="sidebar">
+        <h1>System UI</h1>
+        <nav>
+          <a class="active" href="#">Dashboard</a>
+          <a href="#">Orders</a>
+          <a href="#">Clients</a>
+          <a href="#">Settings</a>
+        </nav>
+      </aside>
+
+      <main class="main-content">
+        <header class="topbar">
+          <div>
+            <p class="eyebrow">Frontend System</p>
+            <h2>Welcome back</h2>
+          </div>
+          <button id="themeToggle">Switch Theme</button>
+        </header>
+
+        <section class="hero-card">
+          <div>
+            <p class="eyebrow">Today</p>
+            <h3>Track your activity with a clean dashboard.</h3>
+            <p>This starter frontend gives you a modern layout for a system panel.</p>
+          </div>
+          <div class="hero-metric">
+            <span id="currentDate"></span>
+            <strong>+12.4%</strong>
+            <small>Growth this week</small>
+          </div>
+        </section>
+
+        <section class="stats-grid">
+          <article class="stat-card">
+            <p>Active Users</p>
+            <h4>1,284</h4>
+          </article>
+          <article class="stat-card">
+            <p>Orders</p>
+            <h4>320</h4>
+          </article>
+          <article class="stat-card">
+            <p>Revenue</p>
+            <h4>$18,400</h4>
+          </article>
+        </section>
+
+        <section class="content-grid">
+          <article class="panel">
+            <div class="panel-title">
+              <h3>Progress</h3>
+              <span>75%</span>
+            </div>
+            <div class="progress-bar">
+              <div class="progress-fill"></div>
+            </div>
+          </article>
+
+          <article class="panel">
+            <div class="panel-title">
+              <h3>Recent Activity</h3>
+            </div>
+            <ul class="activity-list">
+              <li>New client added</li>
+              <li>Invoice sent</li>
+              <li>System updated</li>
+            </ul>
+          </article>
+        </section>
+      </main>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
